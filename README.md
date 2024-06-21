@@ -1,6 +1,6 @@
 ### Clone the Project 
 ```bash
-    git clone https://github.com/bhavesh149/alemeno-course-listing.git
+  git clone https://github.com/bhavesh149/alemeno-course-listing.git
 ```
 Go to the project directory
 
@@ -13,7 +13,7 @@ In the project directory, you can run:
 Install Dependencies
 
 ```bash 
-    npm i
+  npm i
 ```
 Start the server
 
