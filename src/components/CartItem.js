@@ -14,7 +14,7 @@ const CartItem = ({cartItem}) => {
       <div className='cart-item-info'>
         <p className='fw-7 fs-15'>{cartItem.course_name}</p>
         <span className='cart-item-creator fs-13 opacity-09'>By {cartItem.creator}</span>
-        <div className='fw-7 text-purple'>${cartItem.discounted_price}</div>
+        <div className='fw-7 text-purple'> &#8377;{cartItem.discounted_price}</div>
         <div className='cart-item-category bg-orange fs-12 d-inline-block text-capitalize text-white fw-7'>{cartItem.category}</div>
         <br />
         <button type = "button" className='remove-btn fs-13 text-dark fw-6' onClick={() => removeFromCart(cartItem.courseID)}>Remove <span><FaTrashAlt /></span></button>

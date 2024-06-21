@@ -231,7 +231,7 @@ const NavbarWrapper = styled.nav`
     width: 40%;
     
     }
-    @media (max-width: 385px) {
+    @media (max-width: 585px) {
     .search-form-container {
       display: none; /* This will hide the search bar on mobile */
     }

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import CartItem from "../components/CartItem";
 import { MdClear } from "react-icons/md";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const CartPage = () => {
   const {
@@ -62,21 +62,22 @@ const CartPage = () => {
               <div className="cart-total">
                 <span className="d-block fs-18 fw-6">Total:</span>
                 <div className="cart-total-value fw-8">
-                  ${total_amount.toFixed(2)}
+                &#8377;{total_amount.toFixed(2)}
                 </div>
+                <Link to="/dashboard">
                 <button
                   type="button"
                   className="checkout-btn bg-purple text-white fw-6"
                 >
                   Checkout
                 </button>
+                </Link>
               </div>
             </div>
             {/* end of cart grid right */}
           </div>
         </div>
       </CartWrapper>
-      <Footer />
     </>
   );
 };
