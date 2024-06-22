@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { useCartContext } from "../context/cart_context";
 import Course from "../components/Course"; // Make sure to adjust the import path if necessary
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const Dashboard = () => {
   const { cart } = useCartContext();
@@ -43,7 +42,6 @@ const Dashboard = () => {
           </div>
         </div>
       </DashboardWrapper>
-      <Footer />
     </>
   );
 };

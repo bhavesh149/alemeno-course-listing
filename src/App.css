@@ -13,7 +13,6 @@
     --transition: all 300ms linear;
 }
 
-/* global styles and resets */
 *,
 *::after,
 *::before{
@@ -68,7 +67,6 @@ input, textarea, select{
     resize: none;
 }
 
-/* container */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -92,6 +90,9 @@ input, textarea, select{
     display: flex;
     align-items: center;
 }
+.flex1{
+    display: flex;
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -114,7 +115,6 @@ input, textarea, select{
     display: grid;
 }
 
-/* display */
 .d-block{
     display: block;
 }

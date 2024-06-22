@@ -16,7 +16,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Fade from "@mui/material/Fade";
 import Footer from "../components/Footer";
 
 const SingleCoursePage = () => {
@@ -35,7 +34,7 @@ const SingleCoursePage = () => {
 
   useEffect(() => {
     fetchSingleCourse(id);
-  }, []);
+  });
 
   const {
     id: courseID,

@@ -1,4 +1,3 @@
-import { duration } from "@mui/material";
 import { course_images } from "./images";
 
 const courses = [
